@@ -66,10 +66,10 @@ function animate(){
     binary_string += container.element;
 
   })
-  ctx.fillText(binary_string, (canvas.width/2)-200, 700)
+  ctx.fillText("Binary Value: " + binary_string, (canvas.width/2)-200, 700)
   var num = parseInt(binary_string, 2);
 
-  ctx.fillText(num, (canvas.width/2)-200, 600)
+  ctx.fillText("Decimal Value: " + num, (canvas.width/2)-200, 600)
 
   container1.draw();
   container2.draw();
