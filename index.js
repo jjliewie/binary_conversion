@@ -66,14 +66,14 @@ function animate(){
     binary_string += container.element;
 
   })
-  ctx.fillText("Binary Value: " + binary_string, (canvas.width/2)-200, 700)
+  ctx.fillText("Binary Value: " + binary_string, (canvas.width/2)-200, 680)
   var num = parseInt(binary_string, 2);
 
   ctx.fillText("Decimal Value: " + num, (canvas.width/2)-200, 600)
   
   var hex_num = num.toString(16);
 
-  ctx.fillText("Hexadecimal Value: " + hex_num, (canvas.width/2)-200, 800);
+  ctx.fillText("Hexadecimal Value: " + hex_num, (canvas.width/2)-200, 760);
 
   container1.draw();
   container2.draw();
