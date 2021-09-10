@@ -70,6 +70,10 @@ function animate(){
   var num = parseInt(binary_string, 2);
 
   ctx.fillText("Decimal Value: " + num, (canvas.width/2)-200, 600)
+  
+  var hex_num = num.toString(16);
+
+  ctx.fillText("Hexadecimal Value: " + hex_num, (canvas.width/2)-200, 800);
 
   container1.draw();
   container2.draw();
